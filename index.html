@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAVERI|PLYWOOD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <p class="head">KAVERI PLYWOOD & LAMINATES <img src="icon.png" alt="" height="8%" width="8%"> </p>
+
+  <section>
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active">
+          <marquee width="100%" direction="right" height="15px">
+            Share your details & our team will get in touch with you.
+          </marquee>
+        </a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+  </section>
+  <div id="flip">CONTACT <i style="font-size:24px" class="fa">&#xf2b9;</i></div>
+  <div id="panel">PHONE NO -9897136334 <br>
+    <p><a href="mailto:hitesh2laddo@gmail.com"> CLICK To Send email</a></p>
+  </div>
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+    <div class="carousel-cell">
+      <img class="w3-image" src="1.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="2.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="3.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="4.jpg">
+    </div>
+  </div>
+  <br> <br>
+
+  <div class="container">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/3Wh9NYvfStk"></iframe>
+  </div>
+  <div class="blog">
+    <p style="font-family: 'Times New Roman', Times, serif;"> <span class="p">| PLYWOOD |</span> <br> Plywood is made
+      through following procedures, peel the log into laminas and dry them, then pile the laminas whose
+      fibers are transverse to each other together, finally agglutinate and stress them in heat. Generally speaking
+      plywood contains from 3 to 13 levels. 3-plywood and 5-plywood are usually used in architecture. Both conifer and
+      broadleaf can be made into plywood.
+
+      Characteristics: It has even texture and high strength, without obvious fiber saturated point, warping or split;
+      it contains seldom defect; usually it has wide surface and is convenient for using; and it makes a good decorative
+      effect.</p>
+    
+    <p style="font-family: 'Times New Roman', Times, serif;"> <span class="p" style="text-transform: uppercase;">| Quality and physical properties |</span>
+      <br> Plywood is classified according to the grades of the surface veneers, which are set out in European standard
+      EN
+      635 (EN 635-1, 1995; EN 635-2, 1995; EN 635-3, 1995) and its counterpart elsewhere in the world. Essentially
+      surface veneers are classified according to the presence of knots and other visible defects such as holes, splits
+      and discolouration. The surface grades do not, in general, have any significant effect upon the structural
+      performance of a plywood panel. The density of plywood panels is a reflection of their construction. For example,
+      the air-dry densities of birch (Betula pendula) and spruce (Picea abies) are in the ranges 630–670 kg m− 3 (birch)
+      and 400–450 kg m− 3 (spruce) and the densities of birch plywood, combi plywood, coniferous (thin) plywood and
+      coniferous (thick) plywood are 680, 620, 520 and 460 kg m− 3, respectively (Handbook of Finnish Plywood, 2002).
+      The density of coniferous LVL made from spruce is given as 480 kg m− 3 (Kerto®, 2014).
+
+      Being primarily composed of wood, plywood and LVL have good insulation properties, akin to that of solid wood of
+      comparable density and moisture content. Plywood can be can be used at temperatures ranging from as low as − 200
+      °C up to 120 °C. This has led to plywood being used, for example, in the lining of containers for transporting
+      liquefied natural gas (LNG), which must be cooled to a temperature of − 163 °C to become liquid.</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#flip").click(function () {
+        $("#panel").slideToggle("slow");
+      });
+    });
+  </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>
